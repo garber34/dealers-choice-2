@@ -1,0 +1,91 @@
+#header{
+  background-color: aqua;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+#homeimg{
+  text-align: center;
+}
+
+.createLink{
+  display: block;
+  background-color: aliceblue;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100vw;
+  text-align: center;
+  padding: .5rem;
+}
+
+
+.createLink:hover{
+  background-color: lightgray;
+
+}
+
+.game{
+  padding:0;
+  margin:0;
+}
+div.game:hover{
+  background-color: lightgray;
+}
+
+.nav{
+  background-color: aliceblue;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  width: 50%;
+  padding: 1rem;
+}
+
+.nav:hover{
+  background-color: lightgray;
+
+}
+
+#formContainer{
+  height:100%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:inherit;
+}
+
+form *{
+  flex:0 1 0
+}
+
+textarea{
+  min-height: fit-content;
+  flex:1 0 auto
+}
+
+#singleGame{
+  display: flex;
+}
+
+
+#form{
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  margin:.5rem .5rem 0 .5rem;
+  padding:.25rem
+}
+
+a{
+  text-decoration: none;
+}
